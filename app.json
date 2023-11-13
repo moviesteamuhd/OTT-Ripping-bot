@@ -1,6 +1,7 @@
 {
     "name": "Shell-Bot",
     "description": "Telegram bot for executing shell commands",
+    "repository": "https://github.com/moviesteamuhd/OTT-Ripping-bot",
     "keywords": [
       "telegram",
       "bot",
@@ -36,4 +37,8 @@
         "value": "C.UTF-8"
       }
     }
+    "buildpacks":
+        [
+            {"url": "heroku/python"}
+        ]  
 }
